@@ -14,15 +14,17 @@
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".recyclerview.RecyclerActivity">
+        </activity>
+        <activity android:name=".BrowseActivity">
+        </activity>
+        <activity android:name=".LifecycleActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-        <activity android:name=".BrowseActivity">
-        </activity>
-        <activity android:name=".LifecycleActivity">
         </activity>
         <activity android:name=".NetworkActivity">
         </activity>
